@@ -4,8 +4,7 @@
 * CSS level 3.
 *
 * Overwrites default styles of different browsers for identity of view.
-* Considers only the last (at moment of project release) versions of popular browsers.
-* Tested in Opera, Google Chrome, Mozilla Firefox, Microsoft Edge, Internet Explorer.
+* Browser support: Opera, Google Chrome, Mozilla Firefox, Microsoft Edge, Internet Explorer 11.
 *
 * @package   initstyles
 * @author    Elena Abrazhevich <elenaabrazhevich@afoteris.com>
