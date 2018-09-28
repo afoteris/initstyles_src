@@ -4,10 +4,66 @@
 * @package   initstyles
 * @author    Elena Abrazhevich <elenaabrazhevich@afoteris.com>
 * @copyright 2018 Elena Abrazhevich
-* @version
+* @version   0.0.0-dev
 */
 
 /*
 Table of content
-
+    General
+    Typography
+    Colors
 */
+
+/*
+ * ----------------------------------------------------------------
+ * General
+ * ----------------------------------------------------------------
+ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+q {
+    quotes: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/*
+ * ----------------------------------------------------------------
+ * Typography
+ * ----------------------------------------------------------------
+ */
+
+* {
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+body {
+    line-height: 1;
+}
+
+/*
+ * ----------------------------------------------------------------
+ * Colors
+ * ----------------------------------------------------------------
+ */
+
+* {
+    background: transparent;
+    color: inherit;
+}
