@@ -1,15 +1,15 @@
 /**
-* Initial styles.
+* InitStyles.
+*
+* Initial styles for overwriting of default styles of different browsers for identity of view.
+* Browser support: Opera 55+, Google Chrome 69+, Mozilla Firefox 62+, Microsoft Edge 42+, Internet Explorer 11+.
 *
 * CSS level 3.
-*
-* Overwrites default styles of different browsers for identity of view.
-* Browser support: Opera 55+, Google Chrome 69+, Mozilla Firefox 62+, Microsoft Edge 42+, Internet Explorer 11+.
 *
 * @package   InitStyles
 * @author    Elena Abrazhevich <elenaabrazhevich@afoteris.com>
 * @copyright 2018 Elena Abrazhevich
-* @version   0.0.0-dev
+* @version   0.1.0
 */
 
 /*
