@@ -1,6 +1,11 @@
 /**
 * Initial styles.
 *
+* CSS level 3.
+* Overwrites default styles of different browsers for identity of view.
+* Considers only the last versions of popular browsers.
+* Tested in Opera, Google Chrome, Mozilla Firefox, Microsoft Edge, Internet Explorer.
+*
 * @package   initstyles
 * @author    Elena Abrazhevich <elenaabrazhevich@afoteris.com>
 * @copyright 2018 Elena Abrazhevich
