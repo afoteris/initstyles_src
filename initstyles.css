@@ -47,6 +47,11 @@ table {
     border-collapse: collapse;
 }
 
+/* Fix "inline" rendering of <main> in IE11. */
+main {
+    /*display: block;*/
+}
+
 /*
  * ----------------------------------------------------------------
  * Typography
