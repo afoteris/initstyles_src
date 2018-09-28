@@ -2,8 +2,9 @@
 * Initial styles.
 *
 * CSS level 3.
+*
 * Overwrites default styles of different browsers for identity of view.
-* Considers only the last versions of popular browsers.
+* Considers only the last (at moment of project release) versions of popular browsers.
 * Tested in Opera, Google Chrome, Mozilla Firefox, Microsoft Edge, Internet Explorer.
 *
 * @package   initstyles
@@ -14,6 +15,7 @@
 
 /*
 Table of content
+
     General
     Typography
     Colors
