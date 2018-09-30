@@ -51,6 +51,16 @@ main {
     display: block;
 }
 
+/* Fix "inline" rendering of <details> in IE11, Edge. */
+details {
+    display: block;
+}
+
+/* Fix "inline" rendering of <summary> in IE11, Edge. */
+summary {
+    display: list-item;
+}
+
 /*
  * ----------------------------------------------------------------
  * Typography
@@ -58,9 +68,7 @@ main {
  */
 
 * {
-    font-size: inherit;
-    font-style: normal;
-    font-weight: normal;
+    font: inherit;
     text-decoration: none;
 }
 
