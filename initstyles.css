@@ -63,7 +63,7 @@ summary {
 
 /*
  * ----------------------------------------------------------------
- * Typography
+ * Typography. Reset styles
  * ----------------------------------------------------------------
  */
 
@@ -72,9 +72,112 @@ summary {
     text-decoration: none;
 }
 
+/*
+ * ----------------------------------------------------------------
+ * Typography. Initial styles
+ * ----------------------------------------------------------------
+ */
+
 body {
     line-height: 1;
     font-size: 18px;
+}
+
+abbr {
+    border-bottom: 2px dotted;
+}
+
+abbr[title] {
+    cursor: help;
+}
+
+address {
+    font-style: italic;
+}
+
+b {
+    font-weight: 700;
+}
+
+cite {
+    font-style: italic;
+}
+
+code {
+    font-family: monospace;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+dfn {
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+/* Scale = 1.250 (Major Third). */
+h1 { font-size: 2.441em; }
+h2 { font-size: 1.953em; }
+h3 { font-size: 1.563em; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 0.8em; }
+
+i {
+    font-style: italic;
+}
+
+ins {
+    border-bottom: 1px solid;
+}
+
+kbd {
+    font-family: monospace;
+}
+
+pre {
+    font-family: monospace;
+}
+
+q {
+    font-style: italic;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+samp {
+    font-family: monospace;
+}
+
+small {
+    font-size: 0.8em;
+}
+
+strong {
+    font-weight: 700;
+}
+
+sub,
+sup {
+    font-size: 0.64em;
+}
+
+var {
+    font-style: italic;
+}
+
+u {
+    border-bottom: 1px solid;
 }
 
 /*
