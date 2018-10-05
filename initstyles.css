@@ -22,7 +22,7 @@ Table of content
 
 /*
  * ----------------------------------------------------------------
- * General
+ * General. Reset styles
  * ----------------------------------------------------------------
  */
 
@@ -42,9 +42,11 @@ q {
     quotes: none;
 }
 
-table {
-    border-collapse: collapse;
-}
+/*
+ * ----------------------------------------------------------------
+ * General. Fix styles
+ * ----------------------------------------------------------------
+ */
 
 /* Fix "inline" rendering of <main> in IE11. */
 main {
@@ -59,6 +61,42 @@ details {
 /* Fix "inline" rendering of <summary> in IE11, Edge. */
 summary {
     display: list-item;
+}
+
+/*
+ * ----------------------------------------------------------------
+ * General. Initial styles
+ * ----------------------------------------------------------------
+ */
+
+hr {
+    border-bottom: 1px solid;
+}
+
+sub,
+sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.22em;
+}
+
+sup {
+    top: -0.56em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    cursor: pointer;
 }
 
 /*
