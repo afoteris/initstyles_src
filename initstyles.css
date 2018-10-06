@@ -101,6 +101,20 @@ input[type="reset"] {
     cursor: pointer;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+canvas,
+embed,
+iframe,
+object,
+picture,
+video {
+    max-width: 100%;
+}
+
 /*
  * ----------------------------------------------------------------
  * Typography. Reset styles
