@@ -71,6 +71,11 @@ legend {
     max-width: 100%;
 }
 
+/* Remove default vertical scrollbar in IE11. */
+textarea {
+    overflow: auto;
+}
+
 /*
  * ----------------------------------------------------------------
  * General. Initial styles
