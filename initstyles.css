@@ -66,6 +66,11 @@ summary {
     display: list-item;
 }
 
+/* Prevent horizontal scrolling if text is wider than screen in IE11, Edge. */
+legend {
+    max-width: 100%;
+}
+
 /*
  * ----------------------------------------------------------------
  * General. Initial styles
