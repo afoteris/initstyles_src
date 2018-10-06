@@ -15,14 +15,17 @@
 /*
 Table of content
 
-    General
-    Typography
+    General. Reseting styles
+    General. Fixing styles
+    General. Initial styles
+    Typography. Reseting styles
+    Typography. Initial styles
     Colors
 */
 
 /*
  * ----------------------------------------------------------------
- * General. Reset styles
+ * General. Reseting styles
  * ----------------------------------------------------------------
  */
 
@@ -47,7 +50,7 @@ q {
 
 /*
  * ----------------------------------------------------------------
- * General. Fix styles
+ * General. Fixing styles
  * ----------------------------------------------------------------
  */
 
@@ -127,7 +130,7 @@ video {
 
 /*
  * ----------------------------------------------------------------
- * Typography. Reset styles
+ * Typography. Reseting styles
  * ----------------------------------------------------------------
  */
 
