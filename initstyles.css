@@ -34,6 +34,7 @@ Table of content
     padding: 0;
     border: 0;
     outline: 0;
+    vertical-align: baseline;
 }
 
 ol, ul {
@@ -79,7 +80,6 @@ sub,
 sup {
     line-height: 0;
     position: relative;
-    vertical-align: baseline;
 }
 
 sub {
