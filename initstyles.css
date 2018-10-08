@@ -114,6 +114,10 @@ input[type="reset"] {
     cursor: pointer;
 }
 
+textarea {
+    resize: vertical;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -254,6 +258,12 @@ u {
  */
 
 * {
-    background: transparent;
     color: inherit;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    background-color: transparent;
 }
