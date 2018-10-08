@@ -20,7 +20,7 @@ Table of content
     General. Initial styles
     Typography. Reseting styles
     Typography. Initial styles
-    Colors
+    Colors. Reseting styles
 */
 
 /*
@@ -132,6 +132,24 @@ video {
     max-width: 100%;
 }
 
+ul,
+ol {
+    padding-left: 3em;
+}
+
+li > ul,
+li > ol {
+    padding-left: 0.8em;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
 /*
  * ----------------------------------------------------------------
  * Typography. Reseting styles
@@ -176,6 +194,10 @@ cite {
 
 code {
     font-family: monospace;
+}
+
+dt {
+    font-weight: 700;
 }
 
 del {
@@ -253,7 +275,7 @@ u {
 
 /*
  * ----------------------------------------------------------------
- * Colors
+ * Colors. Reseting styles
  * ----------------------------------------------------------------
  */
 
@@ -264,6 +286,7 @@ u {
 button,
 input[type="button"],
 input[type="submit"],
-input[type="reset"] {
+input[type="reset"],
+mark {
     background-color: transparent;
 }
