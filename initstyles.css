@@ -168,7 +168,7 @@ ol {
  */
 
 body {
-    line-height: 1;
+    line-height: 1.5;
     font-size: 18px;
 }
 
@@ -214,6 +214,7 @@ em {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
+    line-height: 1.2;
 }
 
 /* Scale = 1.250 (Major Third). */
@@ -288,5 +289,5 @@ input[type="button"],
 input[type="submit"],
 input[type="reset"],
 mark {
-    background-color: transparent;
+    background: transparent;
 }
