@@ -11,13 +11,73 @@
           href="initstyles.css">
 </head>
 <body>
+<h2>Typography and text content</h2>
+<p><a href="#">Link text.</a></p>
+<h5><a href="#">Link inside heading level 5.</a></h5>
+<p>Abbreviation element without title: <abbr>GPS</abbr>, and with title <abbr title="Title text">HTML</abbr></p>
+<address>
+    Country name,<br>
+    City name,<br>
+    Street name,<br>
+    House number.
+</address>
+<p>Boldface element: <b>boldface</b>.</p>
+<blockquote>Some text inside block quotation element.</blockquote>
+<p>Citation element: <cite>citation</cite>.</p>
+<p>Inline code element: <code>function();</code>.</p>
+<p>Data element: Some <data value="100">machine-readable translation</data>.</p>
+<p>Deleted element: <del>deleted text</del>.</p>
+<p>Definition element: <dfn>definition</dfn>.</p>
+<p>Emphasis element: <em>emphasis</em>.</p>
+<p>Italic element: <i>italic</i>.</p>
+<p>Inserted element: <ins>inserted</ins>.</p>
+<p>Keyboard input element: <kbd>keyboard</kbd>.</p>
+<p>Marked or highlighted text element: <mark>marked text</mark>.</p>
+<p>Output element: <output name="result">64</output>.</p>
+<pre>
+Example
+    of
+        preformatted
+            text.
+</pre>
+<p>Inline citation element: <q>inline citation</q>.</p>
+<p>Strikethroughed element: <s>strikethroughed</s>.</p>
+<p>Sample element: <samp>sample</samp>.</p>
+<p>Small text: <small>some small text</small>.</p>
+<p>Strong importance element: <strong>strong importance</strong>.</p>
+<p>Subscript element: H<sub>2</sub>SO<sub>3</sub>.</p>
+<p>Superscript element: a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>.</p>
+<p>Time element: version 0.1.0 was released <time datetime="2018-09-28">September 29, 2018</time>.</p>
+<p>Unarticulated annotation element: <u>unarticulated annotation</u>.</p>
+<p>Variable element: <var>variable</var>.</p>
 <h1>Heading one</h1>
 <h2>Heading two</h2>
 <h3>Heading three</h3>
 <h4>Heading four</h4>
 <h5>Heading five</h5>
 <h6>Heading six</h6>
-<p>Example of paragraph. His in omnes insolens, ius ne atqui euripidis neglegentur, his ne probo delectus assentior.</p>
+<p>Some paragraph. His in omnes insolens, ius ne atqui euripidis neglegentur, his ne probo delectus assentior.</p>
+<p>Another paragraph. His in omnes insolens, ius ne atqui euripidis neglegentur, his ne probo delectus assentior.</p>
+<hr>
+<p>Paragraph under horizontal line. His in omnes insolens, ius ne atqui euripidis neglegentur, his ne probo delectus assentior.</p>
+<table>
+    <caption>Table caption</caption>
+    <tr>
+        <th>Head cell one</th>
+        <th>Head cell two</th>
+        <th>Head cell three</th>
+    </tr>
+    <tr>
+        <td>Cell one</td>
+        <td>Cell two. His in omnes insolens, ius ne atqui euripidis neglegentur, his ne probo delectus assentior.</td>
+        <td>Cell three</td>
+    </tr>
+    <tr>
+        <td>2018</td>
+        <td>42.</td>
+        <td>1.403</td>
+    </tr>
+</table>
 <ul>
     <li>Unordered list item one.</li>
     <li>Unordered list item two.</li>
@@ -40,96 +100,105 @@
     </li>
     <li>Ordered list item three.</li>
 </ol>
-<table>
-    <tr>
-        <th>Head cell one</th>
-        <th>Head cell two</th>
-        <th>Head cell three</th>
-    </tr>
-    <tr>
-        <td>Cell one</td>
-        <td>Cell two. His in omnes insolens, ius ne atqui euripidis neglegentur, his ne probo delectus assentior.</td>
-        <td>Cell three</td>
-    </tr>
-</table>
-<a href="#">Link text.</a>
-<article>Text in article tag.</article>
-<aside>Text in aside HTML5-tag.</aside>
+<dl>
+    <dt>Definition term one</dt>
+    <dd>Definition description one.</dd>
+    <dt>Definition term two</dt>
+    <dd>Definition description two.</dd>
+</dl>
 <details>
-    <summary>Text in summary HTML5-tag inside details HTML5-tag</summary>
+    <summary>Text in summary-tag inside details-tag</summary>
     <p>Another text.</p>
 </details>
+<h2>Media content</h2>
+<p><b>Audio element (audio, sourse):</b></p>
+<audio>
+    <source src="http://commonresources.afoteris.com/Magical Transition.mp3">
+</audio>
+<p><b>Graphics canvas element (canvas):</b></p>
+<canvas id="canvas" width="300" height="200"></canvas>
+<p><b>Self-contained content (figure, figcaption):</b></p>
 <figure>
-    <img src="" alt="image">
-    <figcaption>Text in figcaption HTML5-tag.</figcaption>
+    <img src="http://commonresources.afoteris.com/image-small.jpg" alt="">
+    <figcaption>Image caption in figcaption-tag.</figcaption>
 </figure>
-<footer>Text in footer HTML5-tag.</footer>
-<header>Text in header HTML5-tag.</header>
-<main>Text in main HTML5-tag.</main>
-<nav>Text in nav HTML5-tag.</nav>
-<section>Text in section HTML5-tag.</section>
-<input type="text">
-<br>
-<input type="submit">
-<h2><a href="#">Link inside heading.</a></h2>
-<p>Abbreviation element without title: <abbr>GPS</abbr>, and with title <abbr title="Title text">HTML</abbr></p>
-<p>Text in address element:</p>
-<address>
-    Country name,<br>
-    City name,<br>
-    Street name,<br>
-    House number.
-</address>
-<p>Boldface element: <b>boldface</b>.</p>
-<p>Citation element: <cite>citation</cite>.</p>
-<p>Inline code element: <code>function();</code>.</p>
-<p>Deleted element: <del>deleted text</del>.</p>
-<p>Definition element: <dfn>definition</dfn>.</p>
-<p>Emphasis element: <em>emphasis</em>.</p>
-<p>Italic element: <i>italic</i>.</p>
-<p>Inserted element: <ins>inserted</ins>.</p>
-<p>Keyboard input element: <kbd>keyboard</kbd>.</p>
-<pre>
-Example
-    of
-        preformatted
-            text.
-</pre>
-<p>Inline citation element: <q>inline citation</q>.</p>
-<p>Strikethroughed element: <s>strikethroughed</s>.</p>
-<p>Sample element: <samp>sample</samp>.</p>
-<p>Small text: <small>some small text</small>.</p>
-<p>Strong importance element: <strong>strong importance</strong>.</p>
-<p>Subscript element: H<sub>2</sub>SO<sub>3</sub>.</p>
-<p>Superscript element: a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>.</p>
-<p>Unarticulated annotation element: <u>unarticulated annotation</u>.</p>
-<p>Variable element: <var>variable</var>.</p>
-<p>Horizontal line between paragraph.</p>
-<hr>
-<p>Horizontal line between paragraph.</p>
-<button>Button</button>
-<br>
-<input type="button" value="Button">
-<br>
-<input type="submit">
-<br>
-<input type="reset">
-<br>
-<textarea></textarea>
-<br>
-<input type="checkbox"> Check box.
-<br>
-<input type="radio"> Radio button.
-<br>
-<fieldset>
-    <legend>Vis et modus inciderint, est ei enim utinam laudem</legend>
-    <p>
-        <input type="checkbox"> Eu his ipsum quaerendum.
-        <br>
-        <input type="checkbox"> Ei movet dictas omnesque nec.
-        <br>
-        <input type="checkbox"> Has noster dissentiet ne.
-    </p>
-</fieldset>
+<p><b>Inline Frame element (iframe):</b></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6v2L2UGZJAM" frameborder="0"
+        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<p><b>Image small:</b></p>
+<img src="http://commonresources.afoteris.com/image-small.jpg" alt="">
+<p><b>Image large:</b></p>
+<img src="http://commonresources.afoteris.com/image.jpg" alt="">
+<p><b>Video element (video, sourse):</b></p>
+<video controls>
+    <source src="http://commonresources.afoteris.com/Sea - 4006.mp4">
+</video>
+<h2>Forms</h2>
+<form action="#">
+    <fieldset>
+        <legend>Text in legend element inside fieldset element inside form</legend>
+        <p>
+            <label><input type="checkbox"> Eu his ipsum quaerendum.</label>
+            <br>
+            <label><input type="checkbox"> Ei movet dictas omnesque nec.</label>
+            <br>
+            <label><input type="checkbox"> Has noster dissentiet ne.</label>
+        </p>
+        <p>
+            <label><input type="radio"> Eu his ipsum quaerendum.</label>
+            <br>
+            <label><input type="radio"> Ei movet dictas omnesque nec.</label>
+            <br>
+            <label><input type="radio"> Has noster dissentiet ne.</label>
+        </p>
+        <p>Some text to enter: <input type="text"></p>
+        <p>Some text to enter in text area:</p>
+        <p><textarea name="name" id="id"></textarea></p>
+        <p>Select some element:</p>
+        <select>
+            <option>Option 1</option>
+            <option>Option 2</option>
+        </select>
+        <p>Select some element in group:</p>
+        <select>
+            <optgroup label="Optgroup 1">
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </optgroup>
+            <optgroup label="Optgroup 2">
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </optgroup>
+        </select>
+        <p>Select some element from list:</p>
+        <p><input list="list"></p>
+        <datalist id="list">
+            <option value="Text 1">
+            <option value="Text 2">
+        </datalist>
+        <p><input type="submit"></p>
+        <p><input type="reset"></p>
+        <p><input type="button" value="Button"></p>
+    </fieldset>
+</form>
+<h2>Layout elements</h2>
+<article>Some text in article element.</article>
+<aside>Some text in aside element.</aside>
+<div>Some text in content division element .</div>
+<footer>Some text in footer element.</footer>
+<header>Some text in header element.</header>
+<main>Some text main element.</main>
+<nav>Some text nav element.</nav>
+<section>Some text section element.</section>
+<span>Some text span element.</span>
+<h2>Additional elements</h2>
+<p>Scalar value or a fractional value (meter):</p>
+<meter value="0" max="100" low="10" high="60">Low</meter>
+<meter value="30" max="100" low="10" high="60">Normal</meter>
+<meter value="80" max="100" low="10" high="60">High</meter>
+<meter value="100" max="100">Maximum</meter>
+<p>Indicator of completion progress (progress).</p>
+<progress max="100" value="70"></progress>
+<progress max="14" value="2"></progress>
 </body>
 </html>
