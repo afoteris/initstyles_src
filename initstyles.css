@@ -150,6 +150,10 @@ ol {
     list-style: decimal;
 }
 
+pre {
+    overflow: auto;
+}
+
 /*
  * ----------------------------------------------------------------
  * Typography. Reseting styles
