@@ -190,7 +190,7 @@ address {
 }
 
 b {
-    font-weight: 700;
+    font-weight: bolder;
 }
 
 cite {
@@ -202,7 +202,7 @@ code {
 }
 
 dt {
-    font-weight: 700;
+    font-weight: bolder;
 }
 
 del {
@@ -218,7 +218,7 @@ em {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
+    font-weight: bolder;
 }
 
 /* Scale = 1.250 (Major Third). */
@@ -262,7 +262,7 @@ small {
 }
 
 strong {
-    font-weight: 700;
+    font-weight: bolder;
 }
 
 sub,
