@@ -127,8 +127,7 @@ body{word-wrap:break-word}*{box-sizing:border-box}h1,h2,h3,h4,h5,h6{margin:48px 
     <figcaption>Image caption in figcaption-tag.</figcaption>
 </figure>
 <p><b>Inline Frame element (iframe):</b></p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p><b>Image small:</b></p>
 <img src="//commonresources.afoteris.com/initstyles_check_assets/image_small.jpg" alt="">
 <p><b>Image large:</b></p>
@@ -159,7 +158,7 @@ body{word-wrap:break-word}*{box-sizing:border-box}h1,h2,h3,h4,h5,h6{margin:48px 
         <br>
         <label>Hidden input: <input type="hidden"></label>
         <br>
-        <label>Image input: <input type="image" src="//commonresources.afoteris.com/initstyles_check_assets/image_small.jpg" width="50"></label>
+        <label>Image input: <input type="image" src="//commonresources.afoteris.com/initstyles_check_assets/image_small.jpg" width="50" alt=""></label>
         <br>
         <label>Month input: <input type="month"></label>
         <br>
@@ -171,8 +170,10 @@ body{word-wrap:break-word}*{box-sizing:border-box}h1,h2,h3,h4,h5,h6{margin:48px 
         <br>
         Reset input: <input type="reset">
         <br>
-        Search input: <input type="search" placeholder="Start search">
-        <br>
+        Search input: <label>
+            <input type="search" placeholder="Start search">
+        </label>
+            <br>
         Submit input: <input type="submit">
         <br>
         <label>Telephone input: <input type="tel"></label>
@@ -186,25 +187,33 @@ body{word-wrap:break-word}*{box-sizing:border-box}h1,h2,h3,h4,h5,h6{margin:48px 
         <label>Week input: <input type="week"></label>
         </p>
         <p>Some text to enter in text area:</p>
-        <p><textarea></textarea></p>
+        <p><label>
+            <textarea></textarea>
+        </label></p>
         <p>Select some element:</p>
-        <select>
-            <option>Option 1</option>
-            <option>Option 2</option>
-        </select>
+        <label>
+            <select>
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </select>
+        </label>
         <p>Select some element in group:</p>
-        <select>
-            <optgroup label="Optgroup 1">
-                <option>Option 1</option>
-                <option>Option 2</option>
-            </optgroup>
-            <optgroup label="Optgroup 2">
-                <option>Option 1</option>
-                <option>Option 2</option>
-            </optgroup>
-        </select>
+        <label>
+            <select>
+                <optgroup label="Optgroup 1">
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                </optgroup>
+                <optgroup label="Optgroup 2">
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                </optgroup>
+            </select>
+        </label>
         <p>Select some element from list:</p>
-        <p><input list="list"></p>
+        <p><label>
+            <input list="list">
+        </label></p>
         <datalist id="list">
             <option value="Text 1">
             <option value="Text 2">
