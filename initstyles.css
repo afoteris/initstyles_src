@@ -222,13 +222,30 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bolder;
 }
 
-/* Scale = 1.250 (Major Third). */
-h1 { font-size: 2.441em; }
-h2 { font-size: 1.953em; }
-h3 { font-size: 1.563em; }
-h4 { font-size: 1.25em; }
-h5 { font-size: 1em; }
-h6 { font-size: 0.8em; }
+/* Scale h1—h6 = 1.250 (Major Third). */
+h1 {
+    font-size: 2.441em;
+}
+
+h2 {
+    font-size: 1.953em;
+}
+
+h3 {
+    font-size: 1.563em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 0.8em;
+}
 
 i {
     font-style: italic;
